@@ -11,9 +11,6 @@ spec:
     path: 'capi-cluster/aws-eks'
     repoURL: 'https://github.com/Tungdever/multi-cluster-with-clusterapi'
     targetRevision: HEAD
-    #helm:
-     # valueFiles:
-       # - values-c1.yaml
   project: default
   syncPolicy:
     automated:
