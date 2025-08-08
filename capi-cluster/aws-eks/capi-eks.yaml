@@ -57,4 +57,6 @@ kind: AWSManagedMachinePool
 metadata:
   name: capi-eks-pool-0
   namespace: default
-spec: {}
+spec:
+  minSize: 1
+  maxSize: 5
