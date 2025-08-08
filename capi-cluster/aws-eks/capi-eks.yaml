@@ -57,4 +57,8 @@ kind: AWSManagedMachinePool
 metadata:
   name: capi-eks-pool-0
   namespace: default
-spec: {}
+spec:
+  instanceType: t3.medium
+  scaling:
+    maxSize: 5
+    minSize: 1
